@@ -162,6 +162,9 @@ p {
 }
 .navigations {
   background-color: lightgrey;
+  position: fixed;
+  width: 100%;
+  opacity: 90%;
 }
 .navigations .dash {
   max-width: 800px;
@@ -202,6 +205,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  padding-top: 129.55px;
+}
+@media (max-width: 500px) {
+  .home {
+    padding-top: 76.8px;
+  }
 }
 .home .intro h2 {
   padding: 15px;
