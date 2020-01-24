@@ -1,1 +1,15 @@
 // Mixins Here
+.signup(@backcolor, @color, @width){
+    color: @color;
+    background-color: @backcolor;
+    border-radius: 15px;
+    height: 40px;
+    font-size: 2.0rem;
+    width:@width;
+}
+.flex(@justify, @align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+@phone: ~"(max-width: 500px)";
