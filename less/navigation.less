@@ -1,1 +1,39 @@
 // Navigation code here
+.navigations{
+    background-color: lightgrey;
+    
+    position: fixed;
+    .width(100%);
+    opacity: 90%;
+    .dash{
+        max-width: 800px;
+        .width(100%);
+    margin: 0% auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0%;
+    h1{
+        font-size:4rem;
+                
+    }
+    nav{
+        justify-content: space-evenly;
+        display: flex;
+        .width(55%);
+        margin-top: 2%;
+        @media @phone{
+            width:100%;
+        }
+      
+        a{
+            text-decoration: none;
+            color:black;
+            font-size: 1.3rem;
+
+        }
+    }
+    }
+}
